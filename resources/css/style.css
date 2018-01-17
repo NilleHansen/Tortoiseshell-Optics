@@ -1,3 +1,8 @@
+html {
+  font-size: 16px;
+}
+
+
 header {
   background-image: url(../glasses-bg.png);
   background-repeat: no-repeat;
@@ -6,11 +11,14 @@ header {
   image-resolution: from-image;
 }
 
-nav {
+nav{
   background-color: #5ca1a5;
   color: white;
-  display: flex;
+}
 
+nav div {
+  display: flex;
+  align-items: center;
 }
 
 li {
@@ -29,11 +37,14 @@ img {
 
 .motto.container {
   display: block;
+  align-items: flex-end;
+  text-align: right;
 }
 
 h1 {
   background-color: white;
   display: block;
+  text-align: right;
 }
 
 h4 {
@@ -41,9 +52,34 @@ h4 {
   color: white;
   font-weight: bold;
   display: block;
+  padding: 0.5em;
+}
+
+.info {
+  padding: 0.5rem 1.25rem;
+  max-width: 10rem;
 }
 
 .flexbox {
   display: flex;
-  align-items: center;
+
+  justify-content: space-between;
+
+}
+
+.service {
+align-items: center;
+
+}
+
+body {
+
+}
+
+
+
+footer {
+  display: flex;
+  align-items: flex-start;
+  background-color: #c9dee0;
 }
