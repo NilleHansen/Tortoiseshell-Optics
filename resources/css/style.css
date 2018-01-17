@@ -1,3 +1,6 @@
-.main-banner .flexbox {
+.main-banner .container {
   background-image: url(../glasses-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
