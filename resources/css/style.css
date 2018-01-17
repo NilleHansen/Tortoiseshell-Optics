@@ -1,21 +1,49 @@
-.main-banner .container {
+header {
   background-image: url(../glasses-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  image-resolution: from-image;
 }
 
-.header .container {
-  background-color: blue;
+nav {
+  background-color: #5ca1a5;
   color: white;
+  display: flex;
+
+}
+
+li {
+  display: inline-flex;
+  text-align: right;
+}
+
+.logo.flexbox {
+  display: flex;
+}
+
+img {
+  image-resolution: from-image;
+}
+
+
+.motto.container {
+  display: block;
 }
 
 h1 {
   background-color: white;
+  display: block;
 }
 
 h4 {
-  background-color: blue;
+  background-color: #5ca1a5;
   color: white;
   font-weight: bold;
+  display: block;
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
 }
