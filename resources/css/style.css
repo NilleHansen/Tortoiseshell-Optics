@@ -1,5 +1,6 @@
 html {
-  font-size: 16px;
+  font-size: 18px;
+  font-family: helvetica, sans-serif;
 }
 
 
@@ -9,36 +10,59 @@ header {
   background-position: center;
   background-size: cover;
   image-resolution: from-image;
+  padding-top: 1rem;
+  height: 30rem;
 }
 
-nav{
+.phone-menu {
+  display: none;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+nav {
+  padding: 1rem 0;
   background-color: #5ca1a5;
   color: white;
-}
-
-nav div {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+nav img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+ul {
+  margin-right: 1rem;
 }
 
 li {
-  display: inline-flex;
-  text-align: right;
-}
-
-.logo.flexbox {
-  display: flex;
+  display: inline;
+  padding: 0 1rem;
 }
 
 img {
-  image-resolution: from-image;
+  border-style: none;
 }
 
 
 .motto.container {
-  display: block;
-  align-items: flex-end;
-  text-align: right;
+  background-color: white;
+  padding: 0.75rem 5rem;
+  display: inline-block;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  line-height: 2.4rem;
+}
+
+header .flexbox {
+  justify-content: flex-end;
 }
 
 h1 {
@@ -51,35 +75,65 @@ h4 {
   background-color: #5ca1a5;
   color: white;
   font-weight: bold;
-  display: block;
-  padding: 0.5em;
-}
-
-.info {
   padding: 0.5rem 1.25rem;
   max-width: 10rem;
 }
 
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.info p {
+  padding: 1rem 0;
+}
+
 .flexbox {
   display: flex;
+}
 
-  justify-content: space-between;
-
+.supporting {
+  display: flex;
+  justify-content: center;
 }
 
 .service {
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  width: 5rem;
+  height: 8rem;
 
 }
 
+.service img {
+  width: 3.5rem;
+}
+
 body {
+  line-height: 1.4rem;
 
 }
 
 
 
 footer {
+  padding: 4rem 2rem;
   display: flex;
-  align-items: flex-start;
-  background-color: #c9dee0;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+div {
+  display: block;
 }
